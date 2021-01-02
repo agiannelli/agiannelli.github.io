@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/agiannelli.github.io/static/css/main.47bf4870.chunk.css",
+    "main.js": "/agiannelli.github.io/static/js/main.2f2b4692.chunk.js",
+    "main.js.map": "/agiannelli.github.io/static/js/main.2f2b4692.chunk.js.map",
+    "runtime-main.js": "/agiannelli.github.io/static/js/runtime-main.dec3ae7a.js",
+    "runtime-main.js.map": "/agiannelli.github.io/static/js/runtime-main.dec3ae7a.js.map",
+    "static/js/2.88cb99b2.chunk.js": "/agiannelli.github.io/static/js/2.88cb99b2.chunk.js",
+    "static/js/2.88cb99b2.chunk.js.map": "/agiannelli.github.io/static/js/2.88cb99b2.chunk.js.map",
+    "static/js/3.e494c49d.chunk.js": "/agiannelli.github.io/static/js/3.e494c49d.chunk.js",
+    "static/js/3.e494c49d.chunk.js.map": "/agiannelli.github.io/static/js/3.e494c49d.chunk.js.map",
+    "index.html": "/agiannelli.github.io/index.html",
+    "static/css/main.47bf4870.chunk.css.map": "/agiannelli.github.io/static/css/main.47bf4870.chunk.css.map",
+    "static/js/2.88cb99b2.chunk.js.LICENSE.txt": "/agiannelli.github.io/static/js/2.88cb99b2.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/agiannelli.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dec3ae7a.js",
+    "static/js/2.88cb99b2.chunk.js",
+    "static/css/main.47bf4870.chunk.css",
+    "static/js/main.2f2b4692.chunk.js"
+  ]
+}
