@@ -12,7 +12,7 @@ const Data = ({ dataId }) => {
         "content-type": "application/octet-stream"
       }, "params": {
         "symbol": dataId.toUpperCase(),
-        "token": process.env.RAPIDAPI_KEY
+        "token": process.env.FINNHUB_KEY
       }
     })
       .then((response) => {

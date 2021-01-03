@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { decode } from 'he';
 import Layout from '../components/Layout'
 import logo from '../img/chuck-norris-bg.png'
-import '../app.css';
 
 const ChuckNorris = ({ location }) => {
 
