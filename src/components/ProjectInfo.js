@@ -1,14 +1,14 @@
 import React from 'react';
 
-const ProjectInfo = ({ children }, props) => {
+const ProjectInfo = (props) => {
 
   return (
     <div className="project-info">
       <h1>Project Info:</h1>
-      <p>Based off of:
-          <a className="project-link" href="{props.url}">Simple User Authentication in React</a>
+      <p>Based on:
+          <a href="{props.url}">{props.title}</a>
       </p>
-      {children}
+      <p>Next up: {props.nextUp}</p>
     </div>
   );
 };

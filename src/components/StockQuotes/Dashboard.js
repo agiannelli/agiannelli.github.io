@@ -17,9 +17,8 @@ const Dashboard = ({ children, uri }) => {
       <ProjectInfo
         title="React Multi Page App"
         url="https://rapidapi.com/blog/react-multi-page-app/"
-      >
-        Next up: add in search functionality
-        </ProjectInfo>
+        nextUp="add in search functionality"
+      />
     </div>
   )
 }

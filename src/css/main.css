@@ -6,6 +6,12 @@
   monospace;
 }
 
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
+}
 .navigation {
   height: 100%;  
   position: fixed;

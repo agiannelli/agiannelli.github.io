@@ -38,9 +38,8 @@ const ChuckNorrisJokeGenerator = ({ location }) => {
       <ProjectInfo
         title="Simple User Authentication in React"
         url="https://developer.okta.com/blog/2019/03/06/simple-user-authentication-in-react"
-      >
-        Next up: add in Okta Log-in support
-      </ProjectInfo>
+        nextUp="add in Okta Log-in support"
+      />
     </div>
   );
 };
