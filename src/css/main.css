@@ -1,22 +1,26 @@
+:root{
+  --main-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  --code-font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--main-font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: var(--code-font-family);
 }
 
 
 a {
   display: block;
   text-decoration: none;
-  padding: 0.25rem .6rem;
   color: white;
 }
 
@@ -78,21 +82,26 @@ span {
 }
 
 .image {
-  height: 40vmin;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
   pointer-events: none;
 }
 
-.main {
+.header {
   text-align: center;
-  background-color: gray;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  text-align: left;
   padding: 10px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .link {
@@ -106,4 +115,17 @@ button.link {
   font: inherit;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.copyright {
+  font-family: var(--code-font-family);
+  color: #534B52;
+}
+
+a.copyright {
+  text-decoration: none;
+}
+
+.project-link {
+  color:#9AE19D;
 }

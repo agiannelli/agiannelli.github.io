@@ -10,9 +10,9 @@ import ChuckNorrisJokeGenerator from '../components/ChuckNorrisJokeGenerator'
 const App = ({ location }) => {
   return (
     <Layout>
-      <h1>Welcome to my Projects Page!</h1>
+      <h1>Portfolio</h1>
       <nav>
-          <Link to='/app'>Projects List</Link>
+        <Link to='/app'>Projects List</Link>
         <Link to='/app/chuck-norris'>Chuck Norris Joke Generator</Link>
         <Link to='/app/stock-quotes'>Stock Quotes Search</Link>
       </nav>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import ProjectInfo from '../ProjectInfo';
 
 const Dashboard = ({ children, uri }) => {
   return (
@@ -11,6 +12,13 @@ const Dashboard = ({ children, uri }) => {
       </nav>
 
       {children}
+
+      <ProjectInfo
+        title="React Multi Page App"
+        url="https://rapidapi.com/blog/react-multi-page-app/"
+      >
+        Next up: add in search functionality
+        </ProjectInfo>
     </div>
   )
 }

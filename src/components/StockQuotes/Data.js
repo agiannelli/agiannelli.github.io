@@ -24,8 +24,7 @@ const Data = ({ dataId }) => {
   }, [dataId])
   return (
     <>
-      <h2>Data View for {dataId.toUpperCase()}</h2>
-      <h3>Nested Client-Only Route</h3>
+      <h2>Stock Quote Data for {dataId.toUpperCase()}</h2>
       {quote && <div>
         <table>
           <caption>Quote as of {new Date(Number(quote.t) * 1000).toDateString()} for {dataId.toUpperCase()}</caption>

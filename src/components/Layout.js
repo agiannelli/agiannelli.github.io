@@ -14,14 +14,15 @@ const Layout = ({ children }) => {
   const closeNav = () => {
     setwid("0%");
   };
+
   return (
     <>
-      <header>
+      <header className="header">
         <Link to='/'><img className="image" src={logo} alt="giannelli.tech" /></Link>
         <button onClick={openNav}>Open Nav</button>
         <Navigation width={wid} closeNav={closeNav} />
       </header>
-      <main>
+      <main className="main">
         {children}
       </main>
     </>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { decode } from 'he';
 import Layout from './Layout'
 import image from '../img/chuck-norris-bg.png'
+import ProjectInfo from './ProjectInfo';
 
 const ChuckNorrisJokeGenerator = ({ location }) => {
 
@@ -26,14 +27,21 @@ const ChuckNorrisJokeGenerator = ({ location }) => {
 
 
   return (
-    <div>
-      <img className="image" src={image} alt="chuck norris" />
+    <div className="main">
+      <img className="image" src={image} style={{ maxWidth: "300px" }} alt="chuck norris" />
       <p>{joke || '...'}</p>
       <button className="link" onClick={() => setJoke('')}>
         Get a new joke
         </button>
+
+      <ProjectInfo
+        title="Simple User Authentication in React"
+        url="https://developer.okta.com/blog/2019/03/06/simple-user-authentication-in-react"
+      >
+        Next up: add in Okta Log-in support
+      </ProjectInfo>
     </div>
-  )
-}
+  );
+};
 
 export default ChuckNorrisJokeGenerator;
