@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.3.1] - 2021-01-03
+- Added react-bootstrap and swapped out some components
+- removed some existing styling
+
 ## [0.3.0] - 2021-01-03
 - Updated styling
 - Added "project info" component

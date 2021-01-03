@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { decode } from 'he';
-import Layout from './Layout'
+import Button from 'react-bootstrap/Button';
+
 import image from '../img/chuck-norris-bg.png'
 import ProjectInfo from './ProjectInfo';
 
@@ -30,9 +31,9 @@ const ChuckNorrisJokeGenerator = ({ location }) => {
     <div className="main">
       <img className="image" src={image} style={{ maxWidth: "300px" }} alt="chuck norris" />
       <p>{joke || '...'}</p>
-      <button className="link" onClick={() => setJoke('')}>
+      <Button onClick={() => setJoke('')}>
         Get a new joke
-        </button>
+        </Button>
 
       <ProjectInfo
         title="Simple User Authentication in React"

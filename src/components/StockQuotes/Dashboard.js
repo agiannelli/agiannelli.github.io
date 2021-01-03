@@ -1,15 +1,16 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import { Link } from 'gatsby';
 import ProjectInfo from '../ProjectInfo';
 
 const Dashboard = ({ children, uri }) => {
   return (
     <div>
       <h2>Stock Quote Dashboard</h2>
-      <nav>
+      <Nav className="flex-column">
         <Link to={`${uri}/tsla`}>Data for Tesla</Link>
         <Link to={`${uri}/aapl`}>Data for Apple</Link>
-      </nav>
+      </Nav>
 
       {children}
 
