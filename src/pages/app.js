@@ -1,11 +1,10 @@
 import React from 'react'
-import { Router, Link } from "@reach/router"
 import Layout from '../components/Layout'
+import { Router, Link } from "@reach/router"
 import MyInfo from '../components/MyInfo'
 import Default from '../components/Default'
-import DashboardDefault from '../components/DashboardDefault'
 import Dashboard from '../components/Dashboard'
-import Data from '../components/Data';
+import DashboardDefault from '../components/DashboardDefault'
 
 const App = ({ location }) => {
   return (
@@ -20,7 +19,6 @@ const App = ({ location }) => {
         <MyInfo path="/info" />
         <Dashboard path="/dashboard">
           <DashboardDefault path="/" />
-          <Data path=":dataId" />
         </Dashboard>
       </Router>
     </Layout>
