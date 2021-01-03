@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"7Gfg":function(e,a,n){e.exports=n.p+"static/404-e3ace36901a732e3a115e9daad91a0eb.png"},w2l6:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),c=n.n(t),i=n("7oih"),l=n("7Gfg"),s=n.n(l);a.default=function(e){return c.a.createElement(i.a,null,c.a.createElement("img",{className:"image",src:s.a,alt:"giannelli.tech"}))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-edfa6f38fead62c080cb.js.map
