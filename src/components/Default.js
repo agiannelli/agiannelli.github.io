@@ -3,8 +3,7 @@ import React from 'react'
 const Default = (props) => {
   return (
     <>
-      <h2>Default App View</h2>
-      <h3>Client-Only Route</h3>
+      <h3>Click Project Link Above To View</h3>
     </>
   )
 }

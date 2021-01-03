@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <header>
-        <Link to='/'><img className="logo" src={logo} alt="giannelli.tech" /></Link>
+        <Link to='/'><img className="image" src={logo} alt="giannelli.tech" /></Link>
         <button onClick={openNav}>Open Nav</button>
         <Navigation width={wid} closeNav={closeNav} />
       </header>

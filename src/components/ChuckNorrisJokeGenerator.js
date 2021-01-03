@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { decode } from 'he';
-import Layout from '../components/Layout'
-import logo from '../img/chuck-norris-bg.png'
+import Layout from './Layout'
+import image from '../img/chuck-norris-bg.png'
 
-const ChuckNorris = ({ location }) => {
+const ChuckNorrisJokeGenerator = ({ location }) => {
 
   const [joke, setJoke] = useState('');
 
@@ -26,14 +26,14 @@ const ChuckNorris = ({ location }) => {
 
 
   return (
-    <Layout>
-      <img className="logo" src={logo} alt="chuck norris" />
+    <div>
+      <img className="image" src={image} alt="chuck norris" />
       <p>{joke || '...'}</p>
       <button className="link" onClick={() => setJoke('')}>
         Get a new joke
         </button>
-    </Layout>
+    </div>
   )
 }
 
-export default ChuckNorris;
+export default ChuckNorrisJokeGenerator;
