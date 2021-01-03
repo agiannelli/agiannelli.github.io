@@ -5,6 +5,7 @@ import MyInfo from '../components/MyInfo'
 import Default from '../components/Default'
 import Dashboard from '../components/Dashboard'
 import DashboardDefault from '../components/DashboardDefault'
+import Data from '../components/Data'
 
 const App = ({ location }) => {
   return (
@@ -19,6 +20,7 @@ const App = ({ location }) => {
         <MyInfo path="/info" />
         <Dashboard path="/dashboard">
           <DashboardDefault path="/" />
+          <Data path=":dataId" />
         </Dashboard>
       </Router>
     </Layout>
