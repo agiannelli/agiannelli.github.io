@@ -8,7 +8,11 @@ const AboutMe = (props) => {
       I am married with a beautiful daughter & I have six cats.
       Take that crazy cat lady stereotype!
       </p>
-      <a className="link" href="mailto:giannelli.tech@gmail.com">Email me.</a>
+      <p>An awesome browser extension for devs: <a href="https://api.daily.dev/get?r=agiannelli">daily.dev</a> </p>
+      <a className="link" href="https://github.com/agiannelli">github</a>
+      <a className="link" href="https://twitter.com/GiannelliTech">twitter</a>
+      <a className="link" href="mailto:giannelli.tech@gmail.com">email</a>
+      
     </>
   )
 }
