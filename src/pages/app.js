@@ -7,6 +7,7 @@ import Dashboard from '../components/StockQuotes/Dashboard';
 import DashboardDefault from '../components/StockQuotes/DashboardDefault';
 import Data from '../components/StockQuotes/Data';
 import ChuckNorrisJokeGenerator from '../components/ChuckNorrisJokeGenerator';
+import ToDo from '../components/ToDo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/main.css';
 
@@ -20,6 +21,7 @@ const App = ({ location }) => {
             <Link to='/app'>Projects List</Link>
             <Link to='/app/chuck-norris'>Chuck Norris Joke Generator</Link>
             <Link to='/app/stock-quotes'>Stock Quotes Search</Link>
+            <Link to='/app/todo'>To-do App</Link>
           </Nav>
         </div>
         <div className="align-right">
@@ -30,6 +32,7 @@ const App = ({ location }) => {
               <DashboardDefault path="/" />
               <Data path=":dataId" />
             </Dashboard>
+            <ToDo path="/todo" />
           </Router>
         </div>
         <div style={{ clear: "both" }} />

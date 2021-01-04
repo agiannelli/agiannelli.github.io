@@ -5,6 +5,7 @@ import ProjectInfo from '../ProjectInfo';
 
 const Dashboard = ({ children, uri }) => {
   return (
+    <>
     <div>
       <h2>Stock Quote Dashboard</h2>
       <Nav className="flex-column">
@@ -13,13 +14,15 @@ const Dashboard = ({ children, uri }) => {
       </Nav>
 
       {children}
-
+  </div>
+  <div>
       <ProjectInfo
         title="React Multi Page App"
         url="https://rapidapi.com/blog/react-multi-page-app/"
         nextUp="add in search functionality"
       />
-    </div>
+      </div>
+    </>
   )
 }
 

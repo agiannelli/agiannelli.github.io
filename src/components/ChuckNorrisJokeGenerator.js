@@ -28,19 +28,22 @@ const ChuckNorrisJokeGenerator = ({ location }) => {
 
 
   return (
-    <div className="main">
-      <img className="image" src={image} style={{ maxWidth: "300px" }} alt="chuck norris" />
-      <p>{joke || '...'}</p>
-      <Button onClick={() => setJoke('')}>
-        Get a new joke
+    <>
+      <div>
+        <img className="image" src={image} style={{ maxWidth: "300px" }} alt="chuck norris" />
+        <p>{joke || '...'}</p>
+        <Button onClick={() => setJoke('')}>
+          Get a new joke
         </Button>
-
-      <ProjectInfo
-        title="Simple User Authentication in React"
-        url="https://developer.okta.com/blog/2019/03/06/simple-user-authentication-in-react"
-        nextUp="add in Okta Log-in support"
-      />
-    </div>
+      </div>
+      <div>
+        <ProjectInfo
+          title="Simple User Authentication in React"
+          url="https://developer.okta.com/blog/2019/03/06/simple-user-authentication-in-react"
+          nextUp="add in Okta Log-in support"
+        />
+      </div>
+    </>
   );
 };
 

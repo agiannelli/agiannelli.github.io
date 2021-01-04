@@ -4,10 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.0] - 2021-01-04
+- Fixed small bug with ProjectInfo url 
+- Added beginnings of ToDo App 
+- Minor UI updates
+
 ## [0.3.2] - 2021-01-03
-- fix project info component
-- added float left / right for projects list 
-- play around with react bootstrap components
+- Fix project info component
+- Added float left / right for projects list 
+- Play around with react bootstrap components
 
 ## [0.3.1] - 2021-01-03
 - Added react-bootstrap and swapped out some components
