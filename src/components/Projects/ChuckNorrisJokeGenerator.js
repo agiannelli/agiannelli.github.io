@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { decode } from 'he';
 import Button from 'react-bootstrap/Button';
 
-import image from '../img/chuck-norris-bg.png'
+import image from '../../img/chuck-norris-bg.png'
 import ProjectInfo from './ProjectInfo';
 
 const ChuckNorrisJokeGenerator = ({ location }) => {

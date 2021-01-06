@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
 import Button from 'react-bootstrap/Button'
-import Navigation from '../components/Navigation';
+import Navigation from './Navigation';
 import logo from '../img/giannelli.tech banner.png';
 
 const Layout = ({ children }) => {
