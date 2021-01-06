@@ -7,7 +7,7 @@ import Dashboard from '../components/StockQuotes/Dashboard';
 import DashboardDefault from '../components/StockQuotes/DashboardDefault';
 import Data from '../components/StockQuotes/Data';
 import ChuckNorrisJokeGenerator from '../components/ChuckNorrisJokeGenerator';
-import ToDo from '../components/ToDo';
+import ToDo from '../components/ToDo/ToDo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/main.css';
 
