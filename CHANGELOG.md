@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.0] - 2021-01-23
+- Intentionally renaming repo to create jekyll blog out of agiannelli.github.io
+
 ## [0.6.0] - 2021-01-07
 - Move html.js into src
 - Add in woopra tracking script
